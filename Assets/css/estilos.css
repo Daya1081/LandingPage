@@ -941,6 +941,14 @@ footer .redessociales img {
     width: 60%;
     height: 50%;
 }
+.comentariosp{
+    position: relative;
+    margin: 0 auto;
+}
+.comentarios{
+    width: 90%;
+    margin:0 auto;
+}
 @media screen and (max-width: 1215px){
     .menu .socialMedia a {
         margin: 0px 5px;
