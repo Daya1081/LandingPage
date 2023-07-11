@@ -940,6 +940,7 @@ footer .redessociales img {
 .estilovideo{
     width: 60%;
     height: 50%;
+    margin: 0 auto;
 }
 .comentariosp{
     position: relative;
@@ -948,6 +949,10 @@ footer .redessociales img {
 .comentarios{
     width: 90%;
     margin:0 auto;
+}
+.textovideo{
+    font-size: 40px !important;
+    margin-left: 3%;
 }
 @media screen and (max-width: 1215px){
     .menu .socialMedia a {
@@ -974,7 +979,11 @@ footer .redessociales img {
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 1000px){
+    .textovideo{
+        font-size: 36px !important;
+    }
+}
 @media screen and (max-width: 960px){
     .text_cover {
         padding-right: 20px;
@@ -1034,7 +1043,20 @@ footer .redessociales img {
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 860px){
+    .textovideo{
+        font-size: 30px !important;
+    }
+}
 @media screen and (max-width: 768px){
+    .video{
+        flex-direction: column;
+    }
+    .textovideo{
+        font-size: 30px !important;
+        padding-bottom: 3%;
+        text-align: center;
+    }
     .cover {
         margin-top: 40px;
         max-width: 600px;
